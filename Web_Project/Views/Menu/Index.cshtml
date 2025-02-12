@@ -1,0 +1,229 @@
+﻿@* @model Web_Project.Controllers.MenuViewModel
+
+<body>
+    <div class="container my-5">
+        <!-- Section Title -->
+        <h3 class="text-center py-4" style="font-family: Cursive;">Our Menu</h3>
+
+        <!-- Filter Buttons -->
+        <div class="d-flex justify-content-center mb-4">
+            <button class="btn btn-dark mx-2 active" id="filter-all">All</button>
+            @foreach (var category in Model.Categories)
+            {
+                <button class="btn btn-outline-dark mx-2" id="filter-@category.CategoryId">@category.Name</button>
+            }
+        </div>
+
+        <!-- Menu Items -->
+        <div class="row g-4">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-md-4">
+                    <div class="card menu-card">
+                        <img class="bg-light py-3" src="@product.ImagePath" alt="@product.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">@product.Description</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$ @product.Price</span>
+
+                                <!-- Add to Cart Form -->
+                                <form method="post" action="@Url.Action("AddToCart", "Cart")">
+                                    <input type="hidden" name="productId" value="@product.ProductId" />
+                                    <input type="hidden" name="categoryId" value="@product.Category.CategoryId" />
+                                    <button type="submit" class="btn btn-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body> *@
+
+
+
+@* 
+<body>
+
+    <div class="container my-5">
+        <!-- Section Title -->
+        <h3 class="text-center  py-4" style="font-family: Cursive;">Our Menu</h3>
+
+        <!-- Filter Buttons -->
+        <div class="d-flex justify-content-center mb-4">
+            <button class="btn btn-dark mx-2 active">All</button>
+            <button class="btn btn-outline-dark mx-2">Burger</button>
+            <button class="btn btn-outline-dark mx-2">Pizza</button>
+            <button class="btn btn-outline-dark mx-2">Pasta</button>
+            <button class="btn btn-outline-dark mx-2">Fries</button>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="row g-4">
+            <!-- Item 1 -->
+            <div class="col-md-4">
+                <div class="card menu-card">
+                    <img class="bg-light py-3" src="~/images/f3.png" alt="Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Pizza</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">$20</span>
+                            <button class="btn btn-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="col-md-4">
+                <div class="card menu-card">
+                    <img class="bg-light py-3" src="~/images/f2.png" alt="Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Burger</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">$15</span>
+                            <button class="btn btn-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="col-md-4">
+                <div class="card menu-card">
+                    <img class="bg-light py-3" src="~/images/f3.png" alt="Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Delicious Pizza</h5>
+                        <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">$17</span>
+                            <button class="btn btn-cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+ *@
+
+
+
+
+ @model Web_Project.Controllers.MenuViewModel
+
+<body>
+    <div class="container my-5">
+        <!-- Section Title -->
+        <h3 class="text-center py-4" style="font-family: Cursive;">Our Menu</h3>
+
+        <!-- Filter Buttons -->
+        <div class="d-flex justify-content-center mb-4">
+            <!-- "All" button to show all products -->
+            <button class="btn btn-dark mx-2 filter-category" data-category="0">All</button>
+            @foreach (var category in Model.Categories)
+            {
+                <button class="btn btn-outline-dark mx-2 filter-category" data-category="@category.CategoryId">
+                    @category.Name
+                </button>
+            }
+        </div>
+
+        <!-- Menu Items -->
+        <div class="row g-4" id="product-container">
+            @foreach (var product in Model.Products)
+            {
+                <div class="col-md-4 product-item" data-category="@product.Category.CategoryId">
+                    <div class="card menu-card">
+                        <img class="bg-light py-3" src="@product.ImagePath" alt="@product.Name">
+                        <div class="card-body">
+                            <h5 class="card-title">@product.Name</h5>
+                            <p class="card-text">@product.Description</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$ @product.Price</span>
+
+                                <!-- Add to Cart Form -->
+                                <form method="post" action="@Url.Action("AddToCart", "Cart")">
+                                    <input type="hidden" name="productId" value="@product.ProductId" />
+                                    <button type="submit" class="btn btn-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            @* The product items are dynamically filtered based on the selected category *@
+        </div>
+    </div>
+
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.filter-category').click(function () {
+                // Get the selected category ID
+                const categoryId = $(this).data('category');
+
+                // Update button styles
+                $('.filter-category').removeClass('btn-dark').addClass('btn-outline-dark');
+                $(this).removeClass('btn-outline-dark').addClass('btn-dark');
+
+                // Make an AJAX request to fetch filtered products
+                $.ajax({
+                    url: '/Menu/GetProductsByCategory',
+                    type: 'GET',
+                    data: { categoryId: categoryId },
+                    success: function (products) {
+                        // Clear the current product container
+                        $('#product-container').empty();
+
+                        // Loop through the returned products and add them to the container
+                        products.forEach(product => {
+                            $('#product-container').append(`
+                                <div class="col-md-4 product-item" data-category="${product.categoryId}">
+                                    <div class="card menu-card">
+                                        <img class="bg-light py-3" src="${product.imagePath}" alt="${product.name}">
+                                        <div class="card-body">
+                                            <h5 class="card-title">${product.name}</h5>
+                                            <p class="card-text">${product.description}</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <span class="price">$ ${product.price}</span>
+                                                <form method="post" action="/Cart/AddToCart">
+                                                    <input type="hidden" name="productId" value="${product.productId}" />
+                                                    <button type="submit" class="btn btn-cart">
+                                                        <i class="fas fa-shopping-cart"></i>
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            `);
+                        });
+                    },
+                    error: function () {
+                        alert('Failed to load products. Please try again.');
+                    }
+                });
+            });
+        });
+    </script>
+</body> 
+
+

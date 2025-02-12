@@ -1,0 +1,47 @@
+﻿@model List<Web_Project.Models.OrderHistory>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Order History</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Total Amount</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.ItemName</td>
+                            <td>$@order.UnitPrice.ToString("F2")</td>
+                            <td>@order.Quantity</td>
+                            <td>$@(order.UnitPrice * order.Quantity)</td>
+                            <td>@order.Date.ToString("yyyy-MM-dd HH:mm")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="text-center">No orders found.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

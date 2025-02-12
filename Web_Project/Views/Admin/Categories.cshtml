@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+@model List<Web_Project.Models.ViewModels.CategoryViewModel>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories List</title>
+    <!-- Include Bootstrap CSS -->
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Categories List</h2>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td>@category.Name</td>
+                        <td>@category.Description</td>
+                        <td>
+                            <form method="post" action="~/Admin/RemoveCategory">
+                                <input type="hidden" name="id" value="@category.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

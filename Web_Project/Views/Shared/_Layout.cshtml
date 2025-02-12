@@ -1,0 +1,164 @@
+﻿@* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Web_Project</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Web_Project.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Web_Project</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Web_Project - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+ *@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Food_Delivery_Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Food_Delivery_Web.styles.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-system">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a class="navbar-brand text-white italianno-regular" asp-controller="Home" asp-action="Index">Feane</a>
+                <!-- Toggler for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars text-white"></i>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Menu" asp-action="Index">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="BookTable">Book Table</a>
+                        </li>
+                    </ul>
+                    <!-- Icons and button -->
+                    <div class="d-flex align-items-center">
+                        <div class="navbar-icons">
+                            <a href="~/Home/Profile" class="text-white me-3"><i class="fas fa-user"></i></a>
+                            <a href="~/Cart/MainCart" class="text-white me-3"><i class="fas fa-shopping-cart"></i></a>
+                            @* <a href="#" class="text-white"><i class="fas fa-search"></i></a> *@
+                        </div>
+                        <partial name="_LoginPartial" />
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main"   >
+        @RenderBody()
+    </main>
+
+    <footer class="bg-dark text-white pt-5">
+        <div class="container">
+            <div class="row text-center">
+                <!-- Contact Us Section -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-3 display-6 italianno-regular">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Location</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> Call +01 1234567890</li>
+                        <li><i class="fas fa-envelope me-2"></i> demo@gmail.com</li>
+                    </ul>
+                </div>
+
+                <!-- Center Content Section -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-3 display-6 italianno-regular">Feane</h5>
+                    <p class="mb-3">
+                        Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with.
+                    </p>
+                    <div>
+                        <a href="#" class="text-white social-icon me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white social-icon me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white social-icon me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white social-icon me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white social-icon"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+                <!-- Opening Hours Section -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-3 display-6 italianno-regular">Opening Hours</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">Everyday</li>
+                        <li>10.00 AM - 10.00 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Section -->
+            <div class="text-center mt-4 pt-4 border-top border-secondary">
+                <p class="mb-1">© 2024 All Rights Reserved By Free HTML Templates</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+﻿@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        .card {
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .dashboard-header {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid py-3">
+        <div class="d-flex justify-content-between align-items-center dashboard-header">
+            <h1>Dashboard</h1>
+        </div>
+
+        <div class="row text-center">
+
+            <!-- Total Orders -->
+            <div class="col-md-3 col-sm-6 mb-3">
+                <div class="card text-white bg-primary">
+                    <div class="card-body">
+                        <h2 class="card-title">@ViewData["TotalOrders"]</h2>
+                        <p class="card-text">Total Orders</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Total Users -->
+            <div class="col-md-3 col-sm-6 mb-3">
+                <a asp-controller="Admin" asp-action="Users" class="text-decoration-none">
+                    <div class="card text-white bg-success">
+                        <div class="card-body">
+                            <h2 class="card-title">@ViewData["TotalUsers"]</h2>
+                            <p class="card-text">Total Users</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+
+            <!-- Total Products -->
+            <div class="col-md-3 col-sm-6 mb-3">
+                <a asp-controller="Admin" asp-action="Products" class="text-decoration-none">
+                    <div class="card text-white bg-warning">
+                        <div class="card-body">
+                            <h2 class="card-title">@ViewData["TotalProducts"]</h2>
+                            <p class="card-text">Total Products</p>
+                        </div>
+                    </div>
+                </a>
+               
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-3">
+                <a asp-controller="Admin" asp-action="Categories" class="text-decoration-none">
+                    <div class="card text-white bg-danger">
+                        <div class="card-body">
+                            <h2 class="card-title">@ViewData["TotalCategories"]</h2>
+                            <p class="card-text">Total Categories</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

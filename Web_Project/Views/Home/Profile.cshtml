@@ -1,0 +1,64 @@
+﻿@model Web_Project.Controllers.UserProfileViewModel
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <!-- Include Bootstrap CSS -->
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="border border-secondary rounded-3 p-4 shadow-sm">
+            <div class="d-flex flex-column align-items-center text-center">
+                <img src="@(!string.IsNullOrEmpty(Model.ProfilePicturePath) ? Model.ProfilePicturePath : "https://via.placeholder.com/100")"
+                     onerror="console.log('Image load failed:', this.src)"
+                     alt="User Avatar"
+                     class="rounded-circle mb-3 border border-secondary"
+                     width="100">
+
+
+                <h5 class="mb-1">@Model.FullName</h5>
+                <p class="text-muted mb-1">@Model.Email</p>
+                <a href="~/Home/EditProfile" class="btn btn-warning btn-sm mb-3">Edit Details</a>
+            </div>
+            <ul class="nav nav-tabs justify-content-center mb-4" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="basic-info-tab" data-bs-toggle="tab" data-bs-target="#basic-info" type="button" role="tab" aria-controls="basic-info" aria-selected="true">Basic Info</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link text-dark" id="purchase-history-tab" href="@Url.Action("OrderHistory", "Cart")" role="tab">
+                        Purchased History
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="basic-info" role="tabpanel" aria-labelledby="basic-info-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Full Name:</strong> @Model.FullName</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Email:</strong> @Model.Email</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Mobile No.:</strong> @Model.MobileNumber</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Address:</strong> @Model.Address</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Zip Code:</strong> @Model.ZipCode</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="purchase-history" role="tabpanel" aria-labelledby="purchase-history-tab">
+                    <p class="text-dark">Purchase history content goes here...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS -->
+</body>

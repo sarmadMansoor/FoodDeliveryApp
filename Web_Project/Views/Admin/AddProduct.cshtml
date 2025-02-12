@@ -1,0 +1,79 @@
+﻿@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+@model Web_Project.Models.Product
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<div class="container mt-5">
+    <h2 class="text-center text-primary mb-4">Add Product</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+
+    <div class="p-4 bg-white rounded-lg shadow-lg">
+        <form asp-action="AddProduct" method="post" enctype="multipart/form-data">
+            <!-- Dropdown for Category -->
+            <div class="form-group">
+                <label for="CategoryId" class="font-weight-bold">Select Category</label>
+                <select name="CategoryId" class="form-control">
+                    <option value="">-- Select a Category --</option>
+                    @foreach (var category in (IEnumerable<Web_Project.Models.Category>)ViewBag.Categories)
+                    {
+                        <option value="@category.CategoryId">@category.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="Category.CategoryId" class="text-danger"></span>
+            </div>
+
+            <!-- Product Name -->
+            <div class="form-group">
+                <label asp-for="Name" class="font-weight-bold">Product Name</label>
+                <input asp-for="Name" class="form-control" placeholder="Enter product name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <!-- Price -->
+            <div class="form-group">
+                <label asp-for="Price" class="font-weight-bold">Price</label>
+                <input asp-for="Price" class="form-control" placeholder="Enter product price" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <!-- Stock -->
+            <div class="form-group">
+                <label asp-for="Stock" class="font-weight-bold">Stock</label>
+                <input asp-for="Stock" class="form-control" placeholder="Enter available stock" />
+                <span asp-validation-for="Stock" class="text-danger"></span>
+            </div>
+
+            <!-- Description -->
+            <div class="form-group">
+                <label asp-for="Description" class="font-weight-bold">Description</label>
+                <textarea asp-for="Description" class="form-control" rows="4" placeholder="Enter product description"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <!-- Product Image -->
+            <div class="form-group">
+                <label class="font-weight-bold">Product Image</label>
+                <input type="file" name="productImage" class="form-control-file" />
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary btn-lg px-5">Add Product</button>
+            </div>
+        </form>
+    </div>
+</div>

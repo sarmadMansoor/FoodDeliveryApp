@@ -1,0 +1,66 @@
+﻿@model Web_Project.Models.BookingModel
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-center mb-4" style="font-family: 'Cursive', sans-serif;">Book A Table</h2>
+
+            <!-- Display validation summary -->
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            @if(ViewBag.Message != null)
+            {
+                <h2 class="alert-success">@ViewBag.Message</h2>
+            }
+
+            <form method="post" asp-action="BookTable" asp-controller="Home">
+                <!-- Name -->
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label">Your Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Your Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Phone Number -->
+                <div class="mb-3">
+                    <label asp-for="Phone" class="form-label">Phone Number</label>
+                    <input asp-for="Phone" class="form-control" placeholder="Phone Number">
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label">Your Email</label>
+                    <input asp-for="Email" class="form-control" placeholder="Your Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <!-- Number of Persons -->
+                <div class="mb-3">
+                    <label asp-for="Persons" class="form-label">How many persons?</label>
+                    <select asp-for="Persons" class="form-select">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6+</option>
+                    </select>
+                    <span asp-validation-for="Persons" class="text-danger"></span>
+                </div>
+
+                <!-- Date -->
+                <div class="mb-3">
+                    <label asp-for="Date" class="form-label">Date</label>
+                    <input asp-for="Date" class="form-control">
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning px-4 py-2">BOOK NOW</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

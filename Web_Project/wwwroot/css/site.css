@@ -1,0 +1,469 @@
+html {
+    font-size: 14px;
+}
+
+html ,body {
+    padding:0px;
+    margin:0px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/*navbar
+*/
+/* For small screens */
+/* General Navbar Styling */
+.bg-system {
+    background-image: url('../images/hero-bg.jpg'); /* Replace with the actual URL of your image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: cover; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+}
+
+{
+}
+
+.navbar-brand {
+    font-family: 'Cursive', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+/* Navbar Links */
+.nav-link {
+    color: white;
+    font-size: 16px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+    .nav-link:hover {
+        color: orange;
+        text-decoration: none; /* Remove underline */
+    }
+
+/* Active Link Styling */
+.active-link {
+    color: orange !important;
+    font-weight: bold;
+}
+
+/* Order Button */
+.order-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    .order-btn:hover {
+        background-color: #ff9900;
+    }
+
+/* Navbar Icons */
+.navbar-icons i {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+    .navbar-icons i:hover {
+        color: orange;
+    }
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align horizontally */
+        text-align: center; /* Center align text */
+    }
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column; /* Stack the entire navbar content */
+        align-items: center; /* Center align the content */
+    }
+
+    .d-flex.align-items-center {
+        justify-content: center; /* Center icons and button */
+        margin-top: 15px; /* Add some spacing */
+    }
+}
+
+/*@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;*/ /* Stack items vertically */
+/*align-items: center;*/ /* Center align horizontally */
+/*text-align: center;*/ /* Center align text */
+/*}
+
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;*/ /* Stack the entire navbar content */
+/*align-items: center;*/ /* Center align the content */
+/*}
+
+    .d-flex.align-items-center {
+        justify-content: center;*/ /* Center icons and button */
+/*margin-top: 15px;*/ /* Add some spacing */
+/*}
+}
+
+
+.navbar-brand {
+    font-family: 'Cursive', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+    .navbar-brand:hover {
+        color: orange;
+    }
+
+.nav-link {
+    color: white;
+    font-size: 16px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+    .nav-link:hover {
+        color: orange;
+    }
+
+.active-link {
+    color: orange !important;
+}
+
+.order-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+    .order-btn:hover {
+        background-color: #ff9900;
+    }
+
+.navbar-icons i {
+    color: white;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+    .navbar-icons i:hover {
+        color: orange;
+    }*/
+
+/*    FOOTER
+*/
+.social-icon {
+    transition: color 0.3s, transform 0.3s;
+}
+
+    .social-icon:hover {
+        color: yellow; /* Change the color on hover */
+        transform: scale(1.12); /* Add a scaling effect */
+    }
+
+footer h5, footer ul, footer p {
+    text-align: center; /* Center all text */
+}
+
+/*Menu*/
+.card {
+    transition: transform 0.15s ease-in-out;
+}
+
+
+
+    .card:hover {
+        transform: scale(1.12);
+    }
+
+
+
+
+
+
+
+
+.nav-link {
+    transition: transform 0.15s ease-in-out;
+}
+
+    .nav-link:hover {
+        transform: scale(1.2);
+    }
+
+.menu-card {
+    background-color: #212529;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%; /* Consistent height for all cards */
+}
+
+    .menu-card img {
+        width: 100%; /* Make the image fit the card's width */
+        height: 150px; /* Set a fixed height */
+        object-fit: contain; /* Ensure the image scales to cover the area while maintaining aspect ratio */
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .menu-card .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .menu-card .price {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .menu-card .btn-cart {
+        background-color: #ffc107;
+        color: #000;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.btn-cart:hover {
+    background-color: #e0a800;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/*About*/
+.hero-section {
+    background-color: #212529; /* Dark background */
+    color: #fff; /* Text color */
+    padding: 50px 15px;
+}
+
+    .hero-section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.read-more-btn {
+    background-color: #ffc107; /* Yellow button */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+    .read-more-btn:hover {
+        background-color: #e0a800;
+    }
+
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*menu carsoual*/
+
+
+
+/* Ensure the background image covers the full height of the carousel */
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Makes the height of each slide equal to the viewport height */
+}
+
+    /* Optional: If you want to darken the background image */
+    .carousel-item:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.1); /* Black overlay with 50% opacity */
+        z-index: 1;
+    }
+
+    /* Make sure the content is above the background image */
+    .carousel-item .container {
+        z-index: 2;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/*Cart*/
+.cart-title {
+    font-family: 'Italianno', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .quantity-input button {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+    }
+
+    .quantity-input input {
+        width: 50px;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin: 0 5px;
+    }
+
+.cart-buttons .btn {
+    min-width: 120px;
+    margin-bottom: 10px;
+}
+
+.remove-icon {
+    color: red;
+    cursor: pointer;
+}
+
+    .remove-icon:hover {
+        color: darkred;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-container {
+    background-color: #222831;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+    .card-container h5 {
+        font-family: 'Brush Script MT', cursive;
+    }
+
+.discount {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.order-now-btn {
+    background-color: #ffa500;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+    .order-now-btn:hover {
+        background-color: #ff8800;
+    }
+
+.card-container img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #ffa500;
+}
+
+.card-container img {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image fills the circle without distortion */
+    border-radius: 50%; /* Make the image circular */
+    border: 5px solid #ffa500;
+    margin-bottom: 15px;
+}

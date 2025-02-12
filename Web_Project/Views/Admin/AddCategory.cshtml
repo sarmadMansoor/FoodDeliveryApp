@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+@model Web_Project.Models.Category
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Category</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="text-center text-primary mb-4">
+                    <i class="fas fa-plus-circle"></i> Add Category
+                </h2>
+
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <i class="fas fa-check-circle"></i> @TempData["SuccessMessage"]
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                }
+
+                <form asp-action="AddCategory" method="post" class="p-4 border rounded bg-light shadow">
+                    <div class="form-group">
+                        <label asp-for="Name" class="font-weight-bold">Category Name</label>
+                        <input asp-for="Name" class="form-control" placeholder="Enter category name" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Description" class="font-weight-bold">Description</label>
+                        <textarea asp-for="Description" class="form-control" rows="4" placeholder="Enter category description"></textarea>
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg mt-3">
+                            <i class="fas fa-save "></i> Add Category
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

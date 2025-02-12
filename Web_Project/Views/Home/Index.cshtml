@@ -1,0 +1,82 @@
+﻿<body>
+    <!-- Hero Section with Carousel -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url('/images/hero-bg.jpg'); background-size: cover; background-position: center; height: 100vh;">
+                <div class="container d-flex flex-column justify-content-center align-items-center text-center text-white py-5">
+                    <h1 class="display-4 fw-bold">Fast Food Restaurant</h1>
+                    <p class="lead">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde.</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url('/images/hero-bg.jpg'); background-size: cover; background-position: center; height: 100vh;">
+                <div class="container d-flex flex-column justify-content-center align-items-center text-center text-white py-5">
+                    <h1 class="display-4 fw-bold">Delicious Meals Delivered</h1>
+                    <p class="lead">Experience the best fast food in town, crafted with fresh ingredients and love. Order now and enjoy!</p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url('/images/hero-bg.jpg'); background-size: cover; background-position: center; height: 100vh;">
+                <div class="container d-flex flex-column justify-content-center align-items-center text-center text-white py-5">
+                    <h1 class="display-4 fw-bold">Taste the Difference</h1>
+                    <p class="lead">Join us for a unique dining experience. Savor flavors that you'll remember forever!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="d-flex align-content-center justify-content-center py-5">
+        <a href="/Menu/Index" class="btn btn-warning btn-lg px-5">Order Now!</a>
+    </div>
+
+    <div class="container my-5">
+        <div class="row g-4">
+            <!-- First Card -->
+            <div class="col-md-6">
+                <div class="card-container">
+                    <img src="~/images/f2.png" alt="Burger Image">
+                    <h5>Tasty Thursdays</h5>
+                    <p class="discount">20% off</p>
+                    <button class="order-now-btn">
+                        <i class="bi bi-cart"></i> Order Now
+                    </button>
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="col-md-6">
+                <div class="card-container">
+                    <img src="~/images/o1.jpg" alt="Pizza Image">
+                    <h5>Pizza Days</h5>
+                    <p class="discount">15% off</p>
+                    <button class="order-now-btn">
+                        <i class="bi bi-cart"></i> Order Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @*     <partial name="~/Views/Home/Menu.cshtml" />
+    *@    <!-- Bootstrap JS -->
+</body>

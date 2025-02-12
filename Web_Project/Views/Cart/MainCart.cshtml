@@ -1,0 +1,124 @@
+﻿@model List<Web_Project.Models.ShoppingCartItem>
+
+<body>
+    <div class="container my-5">
+        <h2 class="text-center cart-title">Your Shopping Cart</h2>
+
+        <!-- Table for larger screens -->
+        <div class="d-none d-md-block">
+            <div class="table-responsive">
+                <table class="table table-bordered align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Image</th>
+                            <th scope="col">Unit Price</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Total Price</th>
+                            <th scope="col">Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.ProductName</td>
+                                    <td>
+                                        <img src="@item.ProductImage" style="height:50px; width:50px;" alt="@item.ProductName" class="img-fluid rounded">
+                                    </td>
+                                    <td>$ @item.ProductPrice</td>
+                                    <td>
+                                        <form method="post" action="/Cart/UpdateCartQuantity" id="updateQuantityForm_@item.ProductId">
+                                            <input type="hidden" name="productId" value="@item.ProductId" />
+                                            <input type="number" name="quantity" value="@item.Quantity" min="1" max="@item.Quantity" class="form-control" onchange="this.form.submit()" />
+                                        </form>
+                                    </td>
+                                    <td>$ @item.TotalAmount.ToString("F2")</td>
+                                    <td>
+                                        <form method="post" action="/Cart/RemoveFromCart">
+                                            <input type="hidden" name="productId" value="@item.ProductId" />
+                                            <button type="submit" class="btn btn-danger btn-sm">
+                                                <i class="fas fa-times"></i> Remove
+                                            </button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center">Your cart is empty!</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Table for smaller screens -->
+        <div class="d-block d-md-none">
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="@item.ProductImage" class="img-fluid rounded" style="height: 80px; width: 80px;" alt="@item.ProductName" />
+                                </div>
+                                <div class="col-8">
+                                    <h5 class="card-title">@item.ProductName</h5>
+                                    <p class="card-text">₹ @item.ProductPrice</p>
+                                    <div class="d-flex justify-content-between">
+                                        <form method="post" action="/Cart/UpdateCartQuantity" id="updateQuantityForm_@item.ProductId" class="d-flex">
+                                            <input type="hidden" name="productId" value="@item.ProductId" />
+                                            <button type="button" class="btn btn-outline-secondary btn-sm" onclick="this.form.quantity.value = Math.max(1, this.form.quantity.value - 1)">-</button>
+                                            <input type="number" name="quantity" value="@item.Quantity" min="1" max="@item.Quantity" class="form-control mx-2" onchange="this.form.submit()" style="width: 60px;" />
+                                            <button type="button" class="btn btn-outline-secondary btn-sm" onclick="this.form.quantity.value = Math.min(@item.Quantity, this.form.quantity.value + 1)">+</button>
+                                        </form>
+                                        <span>Total: ₹ @item.TotalAmount.ToString("F2")</span>
+                                    </div>
+                                    <form method="post" action="/Cart/RemoveFromCart" class="mt-2">
+                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                        <button type="submit" class="btn btn-danger btn-sm">
+                                            <i class="fas fa-times"></i> Remove
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="text-center">Your cart is empty!</div>
+            }
+        </div>
+
+        <!-- Grand Total Section -->
+        <div class="text-end mb-3">
+            @if (Model != null && Model.Any())
+            {
+                var grandTotal = Model.Sum(item => item.TotalAmount);
+                <strong>Grand Total: ₹@grandTotal.ToString("F2")</strong>
+            }
+            else
+            {
+                <strong>Grand Total: ₹0.00</strong>
+            }
+        </div>
+
+        <!-- Buttons -->
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center cart-buttons">
+            <a href="/Menu/Index" class="btn btn-primary btn-continue"><i class="fas fa-arrow-left"></i> Continue Shopping</a>
+            <a href="@Url.Action("Payment", "Cart", new { cartItems = Json.Serialize(Model) })" class="btn btn-success btn-checkout">
+                <i class="fas fa-arrow-right"></i> Checkout
+            </a>
+        </div>
+    </div>
+</body>

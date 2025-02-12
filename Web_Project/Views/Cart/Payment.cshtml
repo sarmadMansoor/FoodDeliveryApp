@@ -1,0 +1,86 @@
+﻿@model List<Web_Project.Models.ShoppingCartItem>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Payment</title>
+    <!-- Bootstrap CSS -->
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Order Payment</h2>
+        <div class="border border-secondary rounded-3 p-4 p-4">
+            <!-- Removed Form -->
+            <!-- Payment Method Box (Success Color) -->
+            <div class="col-12 mb-3">
+                <label for="paymentMethod" class="payment-method-label fw-bold">Payment Method</label>
+                <div class="btn btn-success text-center w-100">
+                    <input type="radio" id="creditCard" name="paymentMethod" checked>
+                    <label for="creditCard">Credit Card</label>
+                </div>
+            </div>
+
+            <!-- Card Owner -->
+            <div class="col-12 mb-3">
+                <label for="cardOwner" class="fw-bold">Card Owner</label>
+                <input type="text" class="form-control" id="cardOwner" placeholder="Test User" required>
+            </div>
+
+            <!-- Card Number -->
+            <div class="col-12 mb-3">
+                <label for="cardNumber" class="fw-bold">Card Number</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="1234567890123456" required>
+            </div>
+
+            <!-- Expiration Date -->
+            <div class="col-12 mb-3">
+                <label for="expirationDate" class="fw-bold">Expiration Date</label>
+                <div class="d-flex gap-2">
+                    <input type="text" class="form-control" id="expirationMonth" placeholder="MM" style="max-width: 70px" required>
+                    <input type="text" class="form-control" id="expirationYear" placeholder="YYYY" style="max-width: 70px" required>
+                </div>
+            </div>
+
+            <!-- CVV -->
+            <div class="col-12 mb-3">
+                <label for="cvv" class="fw-bold">CVV</label>
+                <input type="text" class="form-control" id="cvv" placeholder="123" required>
+            </div>
+
+            <!-- Delivery Address -->
+            <div class="col-12 mb-3">
+                <label for="deliveryAddress" class="fw-bold">Delivery Address</label>
+                <textarea class="form-control" id="deliveryAddress" placeholder="Enter your address" rows="2" required></textarea>
+            </div>
+
+            <div class="col-12 text-center">
+                <a href="@Url.Action("Checkout", "Cart", new { cartItemsString = Json.Serialize(Model) })" class="btn btn-primary w-100">Confirm Payment</a>
+            </div>
+
+        </div>
+
+
+
+       
+
+        <!-- Order Total -->
+        <div class="mt-3 text-center">
+            <div class="text-end mb-3">
+                @if (Model != null && Model.Any())
+                {
+                    var grandTotal = Model.Sum(item => item.TotalAmount);
+                    <strong>Grand Total: ₹@grandTotal.ToString("F2")</strong>
+                }
+                else
+                {
+                    <strong>Grand Total: ₹0.00</strong>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+</body>
+</html>

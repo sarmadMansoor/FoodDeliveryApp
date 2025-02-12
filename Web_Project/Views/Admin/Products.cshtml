@@ -1,0 +1,138 @@
+﻿@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+@model List<Web_Project.Models.ViewModels.CategoryWithProductsViewModel>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- Include Bootstrap CSS -->
+    <style>
+        .quantity-alert-red {
+            color: white;
+            background-color: red;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .quantity-alert-green {
+            color: white;
+            background-color: green;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .product-table th,
+        .product-table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .product-image {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .products-container {
+            margin-left: 30px; /* Indents the product section slightly to the right */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Products</h2>
+
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        @foreach (var category in Model)
+        {
+            <div class="mb-4">
+                <!-- Category Name -->
+                <h3 class="bg-warning text-black p-2 rounded">@category.CategoryName</h3>
+
+                <!-- Product Section with Indent -->
+                <div class="products-container">
+                    <table class="table table-bordered product-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Product Image</th>
+                                <th>Product Name</th>
+                                <th>Price (₹)</th>
+                                <th>Quantity</th>
+                                <th>Stock Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in category.Products)
+                            {
+                                <tr>
+                                    <!-- Product Image -->
+                                    <td>
+                                        <img src="@item.PhotoPath" alt="@item.Name" class="product-image" />
+                                    </td>
+
+                                    <!-- Product Name -->
+                                    <td>@item.Name</td>
+
+                                    <!-- Price -->
+                                    <td>₹ @item.Price</td>
+
+                                    <!-- Quantity -->
+                                    <td>@item.Quantity</td>
+
+                                    <!-- Stock Status -->
+                                    <td>
+                                        @if (item.Quantity < 5)
+                                        {
+                                            <span class="quantity-alert-red">Low Stock</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="quantity-alert-green">In Stock</span>
+                                        }
+                                    </td>
+
+                                    <!-- Actions -->
+                                    <td>
+                                        <form method="post" action="/Admin/RemoveProduct" class="d-inline">
+                                            <input type="hidden" name="productId" value="@item.Id" />
+                                            <button type="submit" class="btn btn-danger btn-sm">
+                                                <i class="fas fa-times"></i> Remove
+                                            </button>
+                                        </form>
+                                        <a href="/Admin/EditProduct?id=@item.Id" class="btn btn-primary btn-sm">
+                                            <i class="fas fa-edit"></i> Edit
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+    </div>
+
+</body>
+
+</html>
