@@ -5,6 +5,8 @@ using Web_Project.Models;
 using Newtonsoft.Json;
 using System.Security.Claims;
 using Web_Project.Models.Interfaces;
+using Microsoft.AspNetCore.SignalR;
+using Web_Project.Hubs;
 
 
 namespace Web_Project.Controllers
@@ -14,17 +16,20 @@ namespace Web_Project.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IProductRepository _productRepository;
         private readonly IOrderHistoryRepository _orderHistoryRepository;
+        private readonly IHubContext<ChatHub> _cartHub;
 
 
 
-        public CartController(IOrderHistoryRepository orderHistoryRepository,ApplicationDbContext context ,IProductRepository productRepository)
+
+        public CartController(IHubContext<ChatHub> cartHub,IOrderHistoryRepository orderHistoryRepository,ApplicationDbContext context ,IProductRepository productRepository)
         {
             _context = context;
             _productRepository = productRepository;
             _orderHistoryRepository = orderHistoryRepository;
+            _cartHub = cartHub;
 
         }
-        public IActionResult AddToCart(int categoryId, int productId, int quantity = 1)
+        public  async Task<ActionResult> AddToCart(int categoryId, int productId, int quantity = 1)
         {
             if (!User.Identity.IsAuthenticated)
             {
@@ -97,6 +102,8 @@ namespace Web_Project.Controllers
                 var newCartCookie = JsonConvert.SerializeObject(cartItems);
                 Response.Cookies.Append(sanitizedEmail, newCartCookie, cookieOptions);
             }
+            Product p= _productRepository.GetProductById(productId);
+            await _cartHub.Clients.All.SendAsync("ReceiveCartUpdate", p.Name,userEmail);
 
             // Redirect to the cart view or another appropriate page
             return RedirectToAction("Index", "Menu");

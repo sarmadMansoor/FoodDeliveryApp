@@ -17,135 +17,135 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Web_Project
 build_property.RootNamespace = Web_Project
-build_property.ProjectDir = D:\repos\Web_Project\Web_Project\
+build_property.ProjectDir = D:\FoodDeliveryApp\Web_Project\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\repos\Web_Project\Web_Project
+build_property.MSBuildProjectDirectory = D:\FoodDeliveryApp\Web_Project
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/repos/Web_Project/Web_Project/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Admin/AddCategory.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Admin/AddCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Admin/AddProduct.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Admin/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Admin/Categories.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Admin/Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2F0ZWdvcmllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Admin/EditProduct.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Admin/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Admin/Index.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Admin/OrderHistory.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Admin/OrderHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Admin/Products.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Admin/Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Admin/Users.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Admin/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Cart/MainCart.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Cart/MainCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxNYWluQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Cart/OrderHistory.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Cart/OrderHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxPcmRlckhpc3RvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Cart/Payment.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Cart/Payment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxQYXltZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Home/About.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Home/BookTable.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Home/BookTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb29rVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Home/EditProfile.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Home/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Home/Index.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Home/Privacy.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Home/Profile.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Home/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Menu/Index.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Menu/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Shared/Error.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Shared/_LoginPartial.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Shared/_MyLayout.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Shared/_MyLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/_ViewImports.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/_ViewStart.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/repos/Web_Project/Web_Project/Views/Shared/_Layout.cshtml]
+[D:/FoodDeliveryApp/Web_Project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2nju9yqdeo

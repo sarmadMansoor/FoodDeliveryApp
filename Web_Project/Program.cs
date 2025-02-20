@@ -3,6 +3,7 @@ using Web_Project.Models.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Web_Project.Data;
 using Web_Project.Models;
+using Web_Project.Hubs;
 
 namespace Web_Project
 {
@@ -22,10 +23,13 @@ namespace Web_Project
             builder.Services.AddTransient<ICategoryRepository, CategoryRepository>();
             builder.Services.AddTransient<IProductRepository, ProductRepository>();
             builder.Services.AddTransient<IOrderHistoryRepository, OrderHistoryRepository>();
+            builder.Services.AddTransient<ChatHub>();
 
             builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddSignalR();
 
             var app = builder.Build();
 
@@ -51,6 +55,8 @@ namespace Web_Project
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+            app.MapHub<ChatHub>("/chatHub");
+
             app.MapRazorPages();
 
             app.Run();

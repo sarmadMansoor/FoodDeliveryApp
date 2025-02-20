@@ -127,6 +127,8 @@
  @model Web_Project.Controllers.MenuViewModel
 
 <body>
+
+
     <div class="container my-5">
         <!-- Section Title -->
         <h3 class="text-center py-4" style="font-family: Cursive;">Our Menu</h3>
@@ -157,7 +159,7 @@
                                 <span class="price">$ @product.Price</span>
 
                                 <!-- Add to Cart Form -->
-                                <form method="post" action="@Url.Action("AddToCart", "Cart")">
+                                <form method="post"   action="@Url.Action("AddToCart", "Cart")">
                                     <input type="hidden" name="productId" value="@product.ProductId" />
                                     <button type="submit" class="btn btn-cart">
                                         <i class="fas fa-shopping-cart"></i>
@@ -174,6 +176,8 @@
 
     <!-- Include jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
     <script>
         $(document).ready(function () {
             $('.filter-category').click(function () {

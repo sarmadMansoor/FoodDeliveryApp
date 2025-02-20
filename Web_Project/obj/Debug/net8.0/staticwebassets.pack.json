@@ -1,355 +1,363 @@
 {
   "Files": [
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web_Project.bundle.scp.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web_Project.bundle.scp.css",
       "PackagePath": "staticwebassets\\Web_Project.bundle.scp.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\css\\site.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\favicon.ico",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\about-img.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\about-img.png",
       "PackagePath": "staticwebassets\\images\\about-img.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\f1.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\f1.png",
       "PackagePath": "staticwebassets\\images\\f1.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\f2.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\f2.png",
       "PackagePath": "staticwebassets\\images\\f2.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\f3.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\f3.png",
       "PackagePath": "staticwebassets\\images\\f3.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\f6.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\f6.png",
       "PackagePath": "staticwebassets\\images\\f6.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\hero-bg.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\hero-bg.jpg",
       "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\login.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\login.png",
       "PackagePath": "staticwebassets\\images\\login.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\o1.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\o1.jpg",
       "PackagePath": "staticwebassets\\images\\o1.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\js\\site.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\09331ade-0cf5-4f76-bbf9-e6038692bc02.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\09331ade-0cf5-4f76-bbf9-e6038692bc02.jpg",
       "PackagePath": "staticwebassets\\uploads\\09331ade-0cf5-4f76-bbf9-e6038692bc02.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\09cc6db0-1066-4d81-b038-0a129e8678eb.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\09cc6db0-1066-4d81-b038-0a129e8678eb.jpg",
       "PackagePath": "staticwebassets\\uploads\\09cc6db0-1066-4d81-b038-0a129e8678eb.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\15d0041d-6a12-4e06-9949-fd6bee760da4_f3.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\0e0b8df9-ef9a-4aeb-856c-47b50d593582.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0e0b8df9-ef9a-4aeb-856c-47b50d593582.jpg"
+    },
+    {
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\15d0041d-6a12-4e06-9949-fd6bee760da4_f3.png",
       "PackagePath": "staticwebassets\\uploads\\15d0041d-6a12-4e06-9949-fd6bee760da4_f3.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\21217db1-6b1e-43c4-8a06-fe174c47882d_f7.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\21217db1-6b1e-43c4-8a06-fe174c47882d_f7.png",
       "PackagePath": "staticwebassets\\uploads\\21217db1-6b1e-43c4-8a06-fe174c47882d_f7.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\22d3dc6a-a5ac-4893-ba2f-c26fd89734c0_client1.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\22d3dc6a-a5ac-4893-ba2f-c26fd89734c0_client1.jpg",
       "PackagePath": "staticwebassets\\uploads\\22d3dc6a-a5ac-4893-ba2f-c26fd89734c0_client1.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\2c3442d4-2685-46a9-8955-53f9d40c52e6.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\2c3442d4-2685-46a9-8955-53f9d40c52e6.jpg",
       "PackagePath": "staticwebassets\\uploads\\2c3442d4-2685-46a9-8955-53f9d40c52e6.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\2d0a25ab-b73b-4ee1-a1c5-f7e5587fad20_client1.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\2d0a25ab-b73b-4ee1-a1c5-f7e5587fad20_client1.jpg",
       "PackagePath": "staticwebassets\\uploads\\2d0a25ab-b73b-4ee1-a1c5-f7e5587fad20_client1.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\3c5ea7fa-34e1-40c3-ad9c-2e6fadb5a199.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\3c5ea7fa-34e1-40c3-ad9c-2e6fadb5a199.jpg",
       "PackagePath": "staticwebassets\\uploads\\3c5ea7fa-34e1-40c3-ad9c-2e6fadb5a199.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\4a88f2a2-7f01-493d-a2cd-d09bb0113de3_client1.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\4a88f2a2-7f01-493d-a2cd-d09bb0113de3_client1.jpg",
       "PackagePath": "staticwebassets\\uploads\\4a88f2a2-7f01-493d-a2cd-d09bb0113de3_client1.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\5728f9df-91c5-4fb4-be88-4be31f99e99d_f3.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\5728f9df-91c5-4fb4-be88-4be31f99e99d_f3.png",
       "PackagePath": "staticwebassets\\uploads\\5728f9df-91c5-4fb4-be88-4be31f99e99d_f3.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\5d1b0a81-d780-4e55-8bf6-5f3718590c8b_f3.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\5d1b0a81-d780-4e55-8bf6-5f3718590c8b_f3.png",
       "PackagePath": "staticwebassets\\uploads\\5d1b0a81-d780-4e55-8bf6-5f3718590c8b_f3.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\6a37ce5a-c66b-4b16-893b-7ab37d6d4d11.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\6a37ce5a-c66b-4b16-893b-7ab37d6d4d11.jpg",
       "PackagePath": "staticwebassets\\uploads\\6a37ce5a-c66b-4b16-893b-7ab37d6d4d11.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\b24002c6-254c-4b9c-b01e-32b0a086e935_f3.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\b24002c6-254c-4b9c-b01e-32b0a086e935_f3.png",
       "PackagePath": "staticwebassets\\uploads\\b24002c6-254c-4b9c-b01e-32b0a086e935_f3.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\b8f1247b-d91f-4c40-9e8c-e21ba448c887.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\b8f1247b-d91f-4c40-9e8c-e21ba448c887.jpg",
       "PackagePath": "staticwebassets\\uploads\\b8f1247b-d91f-4c40-9e8c-e21ba448c887.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\d30a2bf8-1eb0-487c-94a7-ca3735f95daa_f3.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\d30a2bf8-1eb0-487c-94a7-ca3735f95daa_f3.png",
       "PackagePath": "staticwebassets\\uploads\\d30a2bf8-1eb0-487c-94a7-ca3735f95daa_f3.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\e8a42e44-c5cd-4ae4-b7ce-37b322f52ba5.jpg",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\e8a42e44-c5cd-4ae4-b7ce-37b322f52ba5.jpg",
       "PackagePath": "staticwebassets\\uploads\\e8a42e44-c5cd-4ae4-b7ce-37b322f52ba5.jpg"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\f1.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\f1.png",
       "PackagePath": "staticwebassets\\uploads\\f1.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\f3.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\f3.png",
       "PackagePath": "staticwebassets\\uploads\\f3.png"
     },
     {
-      "Id": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\f6.png",
+      "Id": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\f6.png",
       "PackagePath": "staticwebassets\\uploads\\f6.png"
     },
     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T1TZlFFQPX9xgDLkQ7E8p37BbfbgbFO34oWUNk8RLCA=",
+  "Hash": "h1Dn6VmU90iPGFxKdESsDWeVYsXZclfg0fgxiRQyPqo=",
   "Source": "Web_Project",
   "BasePath": "_content/Web_Project",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Web_Project\\wwwroot",
       "Source": "Web_Project",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.11\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Web_Project.styles.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Web_Project.styles.css",
       "SourceId": "Web_Project",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "Web_Project.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\repos\\Web_Project\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Web_Project.styles.css"
+      "OriginalItemSpec": "D:\\FoodDeliveryApp\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Web_Project.styles.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web_Project.bundle.scp.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web_Project.bundle.scp.css",
       "SourceId": "Web_Project",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "Web_Project.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\repos\\Web_Project\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web_Project.bundle.scp.css"
+      "OriginalItemSpec": "D:\\FoodDeliveryApp\\Web_Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Web_Project.bundle.scp.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\css\\site.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\css\\site.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\favicon.ico",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\favicon.ico",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\about-img.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\about-img.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "images/about-img.png",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about-img.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\f1.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\f1.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "images/f1.png",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f1.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\f2.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\f2.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "images/f2.png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f2.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\f3.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\f3.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "images/f3.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f3.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\f6.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\f6.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "images/f6.png",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\f6.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\hero-bg.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\hero-bg.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "images/hero-bg.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hero-bg.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\login.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\login.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "images/login.png",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\login.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\images\\o1.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\images\\o1.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "images/o1.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\o1.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\js\\site.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\js\\site.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2487,10 +2487,29 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\09331ade-0cf5-4f76-bbf9-e6038692bc02.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
+      "BasePath": "_content/Web_Project",
+      "RelativePath": "lib/microsoft/signalr/dist/browser/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\09331ade-0cf5-4f76-bbf9-e6038692bc02.jpg",
+      "SourceId": "Web_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/09331ade-0cf5-4f76-bbf9-e6038692bc02.jpg",
       "AssetKind": "All",
@@ -2506,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\09331ade-0cf5-4f76-bbf9-e6038692bc02.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\09cc6db0-1066-4d81-b038-0a129e8678eb.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\09cc6db0-1066-4d81-b038-0a129e8678eb.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/09cc6db0-1066-4d81-b038-0a129e8678eb.jpg",
       "AssetKind": "All",
@@ -2525,10 +2544,29 @@
       "OriginalItemSpec": "wwwroot\\uploads\\09cc6db0-1066-4d81-b038-0a129e8678eb.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\15d0041d-6a12-4e06-9949-fd6bee760da4_f3.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\0e0b8df9-ef9a-4aeb-856c-47b50d593582.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
+      "BasePath": "_content/Web_Project",
+      "RelativePath": "uploads/0e0b8df9-ef9a-4aeb-856c-47b50d593582.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0e0b8df9-ef9a-4aeb-856c-47b50d593582.jpg"
+    },
+    {
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\15d0041d-6a12-4e06-9949-fd6bee760da4_f3.png",
+      "SourceId": "Web_Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/15d0041d-6a12-4e06-9949-fd6bee760da4_f3.png",
       "AssetKind": "All",
@@ -2544,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\15d0041d-6a12-4e06-9949-fd6bee760da4_f3.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\21217db1-6b1e-43c4-8a06-fe174c47882d_f7.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\21217db1-6b1e-43c4-8a06-fe174c47882d_f7.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/21217db1-6b1e-43c4-8a06-fe174c47882d_f7.png",
       "AssetKind": "All",
@@ -2563,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\21217db1-6b1e-43c4-8a06-fe174c47882d_f7.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\22d3dc6a-a5ac-4893-ba2f-c26fd89734c0_client1.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\22d3dc6a-a5ac-4893-ba2f-c26fd89734c0_client1.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/22d3dc6a-a5ac-4893-ba2f-c26fd89734c0_client1.jpg",
       "AssetKind": "All",
@@ -2582,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\22d3dc6a-a5ac-4893-ba2f-c26fd89734c0_client1.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\2c3442d4-2685-46a9-8955-53f9d40c52e6.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\2c3442d4-2685-46a9-8955-53f9d40c52e6.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/2c3442d4-2685-46a9-8955-53f9d40c52e6.jpg",
       "AssetKind": "All",
@@ -2601,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\2c3442d4-2685-46a9-8955-53f9d40c52e6.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\2d0a25ab-b73b-4ee1-a1c5-f7e5587fad20_client1.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\2d0a25ab-b73b-4ee1-a1c5-f7e5587fad20_client1.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/2d0a25ab-b73b-4ee1-a1c5-f7e5587fad20_client1.jpg",
       "AssetKind": "All",
@@ -2620,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\2d0a25ab-b73b-4ee1-a1c5-f7e5587fad20_client1.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\3c5ea7fa-34e1-40c3-ad9c-2e6fadb5a199.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\3c5ea7fa-34e1-40c3-ad9c-2e6fadb5a199.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/3c5ea7fa-34e1-40c3-ad9c-2e6fadb5a199.jpg",
       "AssetKind": "All",
@@ -2639,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3c5ea7fa-34e1-40c3-ad9c-2e6fadb5a199.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\4a88f2a2-7f01-493d-a2cd-d09bb0113de3_client1.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\4a88f2a2-7f01-493d-a2cd-d09bb0113de3_client1.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/4a88f2a2-7f01-493d-a2cd-d09bb0113de3_client1.jpg",
       "AssetKind": "All",
@@ -2658,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4a88f2a2-7f01-493d-a2cd-d09bb0113de3_client1.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\5728f9df-91c5-4fb4-be88-4be31f99e99d_f3.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\5728f9df-91c5-4fb4-be88-4be31f99e99d_f3.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/5728f9df-91c5-4fb4-be88-4be31f99e99d_f3.png",
       "AssetKind": "All",
@@ -2677,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\5728f9df-91c5-4fb4-be88-4be31f99e99d_f3.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\5d1b0a81-d780-4e55-8bf6-5f3718590c8b_f3.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\5d1b0a81-d780-4e55-8bf6-5f3718590c8b_f3.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/5d1b0a81-d780-4e55-8bf6-5f3718590c8b_f3.png",
       "AssetKind": "All",
@@ -2696,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\5d1b0a81-d780-4e55-8bf6-5f3718590c8b_f3.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\6a37ce5a-c66b-4b16-893b-7ab37d6d4d11.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\6a37ce5a-c66b-4b16-893b-7ab37d6d4d11.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/6a37ce5a-c66b-4b16-893b-7ab37d6d4d11.jpg",
       "AssetKind": "All",
@@ -2715,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\6a37ce5a-c66b-4b16-893b-7ab37d6d4d11.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\b24002c6-254c-4b9c-b01e-32b0a086e935_f3.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\b24002c6-254c-4b9c-b01e-32b0a086e935_f3.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/b24002c6-254c-4b9c-b01e-32b0a086e935_f3.png",
       "AssetKind": "All",
@@ -2734,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\b24002c6-254c-4b9c-b01e-32b0a086e935_f3.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\b8f1247b-d91f-4c40-9e8c-e21ba448c887.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\b8f1247b-d91f-4c40-9e8c-e21ba448c887.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/b8f1247b-d91f-4c40-9e8c-e21ba448c887.jpg",
       "AssetKind": "All",
@@ -2753,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\b8f1247b-d91f-4c40-9e8c-e21ba448c887.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\d30a2bf8-1eb0-487c-94a7-ca3735f95daa_f3.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\d30a2bf8-1eb0-487c-94a7-ca3735f95daa_f3.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/d30a2bf8-1eb0-487c-94a7-ca3735f95daa_f3.png",
       "AssetKind": "All",
@@ -2772,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\d30a2bf8-1eb0-487c-94a7-ca3735f95daa_f3.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\e8a42e44-c5cd-4ae4-b7ce-37b322f52ba5.jpg",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\e8a42e44-c5cd-4ae4-b7ce-37b322f52ba5.jpg",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/e8a42e44-c5cd-4ae4-b7ce-37b322f52ba5.jpg",
       "AssetKind": "All",
@@ -2791,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\e8a42e44-c5cd-4ae4-b7ce-37b322f52ba5.jpg"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\f1.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\f1.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/f1.png",
       "AssetKind": "All",
@@ -2810,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\f1.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\f3.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\f3.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/f3.png",
       "AssetKind": "All",
@@ -2829,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\f3.png"
     },
     {
-      "Identity": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\uploads\\f6.png",
+      "Identity": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\uploads\\f6.png",
       "SourceId": "Web_Project",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\repos\\Web_Project\\Web_Project\\wwwroot\\",
+      "ContentRoot": "D:\\FoodDeliveryApp\\Web_Project\\wwwroot\\",
       "BasePath": "_content/Web_Project",
       "RelativePath": "uploads/f6.png",
       "AssetKind": "All",
